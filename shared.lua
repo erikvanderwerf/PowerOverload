@@ -177,7 +177,7 @@ local function get_pole_names(mods)
     end
     combine_tables(loaded_pole_names, lighted_pole_names)
   end
-  log(serpent.block(loaded_pole_names))
+  -- log(serpent.block(loaded_pole_names))
   return loaded_pole_names
 end
 
